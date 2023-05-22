@@ -12,3 +12,28 @@ Linux / Mac执行
 
 
 vue-soft-ui-dashboard-main的node版本号17
+
+
+让竖形框铺满
+
+```cpp
+height: calc(100vh);
+```
+
+**vue3引入ant-design-ui方式**
+
+```shell
+npm install ant-design-vue@next
+```
+
+
+在main.js中直接用
+```js
+import { createApp } from 'vue';
+import { Button } from 'ant-design-vue';
+
+const app = createApp(App);
+app.use(Button);
+app.mount('#app');
+```
+
