@@ -9,3 +9,6 @@ Windows执行
 <code>set NODE_OPTIONS=--openssl-legacy-provider</code>
 Linux / Mac执行
 <code>export NODE_OPTIONS=--openssl-legacy-provider</code>
+
+
+vue-soft-ui-dashboard-main的node版本号17
